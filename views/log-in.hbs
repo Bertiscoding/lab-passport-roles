@@ -1,15 +1,15 @@
 <div class="container">
 
     <div class="card">
-        <h1>Sign Up</h1>
+        <h1>Log In</h1>
 
-        <form action="/auth/sign-up" method='POST'>
+        <form action="/auth/log-in" method='POST'>
             <input type="text" name='username' required='true' placeholder="Username">
             <br>
             <input type="password" name='password' required='true' placeholder="Password">
             <br>
             <br>
-            <button type='submit'>Create my Account</button>
+            <button type='submit'>Log In</button>
             <br>
             <br>
             <br>
@@ -18,7 +18,7 @@
             {{/if}}
         </form>
 
-        <p>You are an employee?</p> <a href="/auth/log-in">Log In</a>
+        <p>For new admins:</p> <a href="/">Sign Up</a>
 
     </div>
 </div>

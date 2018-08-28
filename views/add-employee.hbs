@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="card">
+        <h1>Create a new employee</h1>
+        <form action="/employee-list" method='POST'>
+            <input type="text" name='username' placeholder='Username' required="true">
+            <br>
+            <input type="password" name='password' placeholder='Password' required="true">
+            <br>
+
+            <select name='role'>
+                <option value="developer">developer</option>
+                <option value="TA">TA</option>
+            </select>
+
+            <br>
+            <button type='submit'>Add the employee</button>
+        </form>
+    </div>
+</div>
