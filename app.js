@@ -12,6 +12,7 @@ const session = require("express-session");
 const MongoStore = require("connect-mongo")(session);
 const passport = require("passport");
 const flash = require("connect-flash");
+const config = require("./config");
 
 mongoose.Promise = Promise;
 mongoose
